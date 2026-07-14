@@ -5,7 +5,7 @@ team = int(input("ลูกน้องกี่คน "))
 oricost = (gunnum * cost)
 orisell = (gunnum * sell)
 sellup = (orisell-oricost)
-boss = (sellup / 20)
+boss = (sellup * 20)/100
 teamsell = (sellup - boss) / team
 print("ต้นทุน ",orisell)
 print("รายรับ ",oricost)
